@@ -12,15 +12,17 @@ import Footer from "./components/footer/Footer";
 export const App = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <React.StrictMode>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </React.StrictMode>
     </>
   );
 };
