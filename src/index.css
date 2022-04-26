@@ -24,7 +24,7 @@
 
   --container-widht-lg: 75%;
   --container-widht-md: 86%;
-  --container-widht-ms: 90%;
+  --container-widht-sm: 90%;
 }
 
 html {
@@ -131,7 +131,7 @@ img {
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================*/
 @media screen and (max-widht: 600px) {
   .container {
-    width: var(--container-widht-ms);
+    width: var(--container-widht-sm);
   }
 
   section > h2 {
