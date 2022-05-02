@@ -3,7 +3,7 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
